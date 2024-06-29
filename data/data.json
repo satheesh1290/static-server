@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Book 1"
+    },
+    {
+      "id": 2,
+      "title": "Book 2"
+    },
+    {
+      "id": 3,
+      "title": "Book 3"
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "name": "Reader 1",
+      "booksIssued": [
+        1
+      ],
+      "hoursRead": 5
+    },
+    {
+      "id": 2,
+      "name": "Reader 2",
+      "booksIssued": [],
+      "hoursRead": 0
+    },
+    {
+      "id": 3,
+      "name": "Reader 3",
+      "booksIssued": [
+        1
+      ],
+      "hoursRead": 0
+    }
+  ]
+}
